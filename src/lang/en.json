@@ -1,0 +1,25 @@
+{
+  "product": {
+    "title": "Per product widgets",
+    "card": {
+      "header": {
+        "title": "This product {action}"
+      },
+      "settings": {
+        "active": {
+          "label": "Activate Badge"
+        },
+        "color": {
+          "label": "Badge Colour"
+        },
+        "linked": {
+          "label": "Link to Public Profile",
+          "tooltip": {
+            "link": "View Public Profile",
+            "text": "This widget links directly to your public profile so that you can easily share your impact with your customers. Turn it off here if you do not want the badge to link to it."
+          }
+        }
+      }
+    }
+  }
+}
