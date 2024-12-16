@@ -3,8 +3,11 @@
 **Architecture of feature modules:**
 
 **ProductsContainer** -> controls loading of data to ProductWigdetsStore and creates basic layout of ProductCards
+
 **ProductCard** -> displays individual product and includes ProductHeader and ProductSettings
+
 **ProductSettings** -> controls modification of product mutable properties
+
 **ProductHeader** -> displays readonly properties of product, styles controlled by selectedColor property
 
 **Reusable Inputs and Core components:**
@@ -14,6 +17,7 @@ BaseTooltip, BaseLoader, InputCheckbox, InputColorpicker, InputToggle
 **State management:**
 
 **ProductWigdetsStore** -> products loading and state management for loaded products
+
 **useProductWidgets** -> fetching of products from API
 
 ## Recommended IDE Setup
